@@ -1,0 +1,80 @@
+.navbar {
+    background-color: #544a48;
+    overflow:hidden;
+    padding-right: 20%;
+}
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Segoe UI';
+}
+.navbar a:hover {
+    background-color: rgb(27, 182, 27);
+    color: white
+}
+.navbar a.active {
+    background-color: rgb(27, 182, 27);
+    color: white;
+  }
+body {
+    background-color: #d1f2eb;
+    
+}
+header h1 {
+    font-family:system-ui;
+    font-weight: bolder;
+    font-size:60px;
+    margin-bottom:0%
+}
+header img {
+    float:right;
+    padding:5px;
+}
+h2 {
+  font-style:italic; 
+}
+aside {
+    border-style: double;
+    float:right;
+    padding:5px;
+    height:50%;
+}
+.skills {
+    font-size:30px;
+    align:left;
+}
+ol {
+    line-height:100px
+}
+li {
+    font-family:Tahoma
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #544a48;
+    width: 100%;
+    border: 3px groove  gray;
+    padding:2px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+}
+.par {
+    font-family:Helvetica;
+    font-size:30px;
+    padding-right:10px;
+}
+#analyst {
+    align:left;
+    width:50%;
+    height:25%;
+}
+#computer {
+    width:50%
+    
+}
